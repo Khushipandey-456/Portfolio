@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <div class="main-cont">
+        <header>
+            <div class="container" id="nav-cont">
+                <p>MyPorfolio</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://drive.google.com/file/d/1sKqn-OkO5lZiU6OJ1JuLLImiwHrjC8Id/view?usp=drive_link"
+                                download="KhushiPandey-Resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </nav>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+            </div>
+        </header>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="container" id="aboutCont">
+                <a href="./images/profile.jpg" download="./images/profile.jpg">
+                    <img src="./images/profile.jpg" alt="Khushi Pandey" class="profile-picture"></a>
+                <p>Hi, I'm Khushi Pandey, a passionate web developer specializing in creating modern and responsive
+                    websites. I love solving problems and always strive to improve my skills.
+                    With experience in HTML, CSS, JavaScript, I’m constantly exploring new technologies to stay
+                    up-to-date in the fast-evolving world of web development. My goal is to create intuitive digital
+                    experiences that engage users and solve real-world problems.
+                    I thrive on collaboration and believe in creating clean, maintainable code that’s easy to scale.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <h2>Soft Skills</h2>
+            <nav>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Attention to detail</li>
+                    <li>Time Management</li>
+                </ul>
+            </nav>
+            <br>
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="img"><a href="./images/html.png" target="_blank"><img src="./images/html.png"
+                            alt="html"></a></div>
+                <div class="img"><a href="./images/css.png" target="_blank"><img src="./images/css.png" alt="cssp"></a>
+                </div>
+                <div class="img"><a href="./images/js.jpg" target="_blank"><img src="./images/js.jpg" alt="jsp"></a>
+                </div>
+                <div class="img"> <a href="./images/nodejs.jpg" target="_blank"><img src="./images/nodejs.jpg"
+                            alt="nodejs"></a></div>
+                <div class="img"> <a href="./images/git.png" target="_blank"><img src="./images/git.png" alt="git"></a>
+                </div>
+                <div class="img"><a href="./images/express.png" target="_blank"><img src="./images/express.png"
+                            alt="express"></a></div>
+                <div class="img"> <a href="./images/mongodb.jpg" target="_blank"><img src="./images/mongodb.jpg"
+                            alt="mongodb"></a></div>
+                <div class="img"><a href="./images/restapi.png" target="_blank"><img src="./images/restapi.png"
+                            alt="restapi"></a></div>
+
+
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="container">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <hr style="font-weight: bold;"><br>
+                    <p>
+                    <h3>Description</h3> Croma is a consumer electronics retailer in India that sells a variety of
+                    products, including digital gadgets, home electronics, and its own brand of products. Croma is a
+                    subsidiary of Tata Sons and is part of the Tata Group.This project demonstrates a modern website
+                    built using HTML, CSS, and JavaScript.</p>
+                    <br>
+                    <img src="./images/project1.png" alt="Project 1">
+                    <a href="https://github.com/Khushipandey-456/croma" target="_blank">View on GitHub</a>
+                    <a href="https://khushipandey-456.github.io/croma/" target="_blank">Live Link</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <div class="container">
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Enter Name" required>
+                    <input type="email" id="email" placeholder="Enter Email" required>
+                    <textarea id="message" placeholder="Type Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                    <p id="status"></p>
+                    <h2>Details</h2>
+                    <li>Phone no :- 9453125153 </li>
+                    <li>Email : - kp9761560@gmail.com </li>
+                    <li><a href="https://github.com/Khushipandey-456" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/khushi-pandey-96131933b/" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>Thanks for reaching me &copy; 2025 Khushi Pandey</p>
+            </div>
+        </footer>
+    </div>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/navbar.js"></script>
+</body>
+
+</html>
